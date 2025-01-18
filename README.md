@@ -1,24 +1,73 @@
 # Mirai BotNet
-Leaked Linux.Mirai Source Code for Research/IoT Development Purposes
 
-Uploaded for research purposes and so we can develop IoT and such.
+## Leaked Linux.Mirai Source Code for Educational/Research Purposes Only
 
-See "ForumPost.txt" or [ForumPost.md](ForumPost.md) for the post in which it
-leaks, if you want to know how it is all set up and the likes.
+This repository contains the leaked source code for the Mirai Botnet, shared for educational and research purposes. It is intended to help researchers and cybersecurity professionals understand botnet mechanics and vulnerabilities in Internet of Things (IoT) devices. The code **must** be handled responsibly.
+
+**Disclaimer**: This software is for academic use only. Misuse for malicious activities is strictly prohibited. Running this code without proper precautions may result in your system being compromised or used for illegal activities.
 
 ## Requirements
-* gcc
-* golang
-* electric-fence
-* mysql-server
-* mysql-client
+
+- `gcc`
+- `golang`
+- `electric-fence`
+- `mysql-server`
+- `mysql-client`
+
+## Precautions & Safety Guidelines
+
+### 1. Run in a Safe Environment
+Before running this code, it is strongly recommended to use a **Virtual Machine (VM)** or **sandbox environment**. This will ensure that the code does not affect your primary operating system or network.
+
+#### To set up a sandbox/VM:
+- Use a hypervisor like **VirtualBox** or **VMware** to create a virtual machine.
+- Install a **clean operating system** (preferably Linux-based) inside the VM.
+- Configure the VM to have **no network access** or a **segregated network** to prevent the code from accessing external networks.
+  
+### 2. Antivirus & Security Software
+Ensure that your antivirus and security software is **up-to-date** and running in your VM or sandbox. The source code may be flagged as malware by antivirus programs, so running it in a protected environment is essential.
+
+### 3. Do Not Run on Your Primary System
+Running the Mirai Botnet code on your primary machine or any system connected to the internet can expose it to potential security risks. Always use isolated, offline environments for research purposes.
+
+### 4. Code Understanding & Education Only
+This code should only be used to **study malware behavior**, **research botnet defense mechanisms**, and **analyze IoT vulnerabilities**. Do not deploy this code for any purpose other than educational research.
+
+## Running the Code (Educational Use Only)
+
+1. **Setup the environment**: Install the necessary dependencies (`gcc`, `golang`, `mysql-server`, etc.) inside your VM.
+2. **Compile the code**: Use `gcc` and `go` to compile the source code in a controlled, isolated environment.
+3. **Monitor and Analyze**: Use tools like **Wireshark** to monitor network traffic and **sandboxing tools** to prevent any interactions with your host system.
 
 ## Credits
-[Anna-senpai](https://hackforums.net/showthread.php?tid=5420472)
 
-## Disclaimer
-This repository is for academic purposes, the use of this software is your
-responsibility.
+- **Anna-senpai**
 
 ## Warning
-The [zip file](https://www.virustotal.com/en/file/f10667215040e87dae62dd48a5405b3b1b0fe7dbbfbf790d5300f3cd54893333/analysis/1477822491/) for this repo is being identified by some AV programs as malware.  Please take caution. 
+
+This repository is flagged as malware by many antivirus programs. Proceed with caution and always use proper safety measures. **Never run the code on your primary operating system**.
+
+## License
+
+- **GPL-3.0 License**
+
+## Activity
+
+- **Stars**: 8.6k
+- **Watchers**: 557
+- **Forks**: 3.5k
+
+## Contributors
+
+- @jgamblin
+- @samrocketman
+- @Red54
+- @pkshultz
+- @BenjaminHCCarr
+
+## Languages
+
+- **C**: 85.5%
+- **Go**: 10.6%
+- **Shell**: 3.3%
+- **Objective-C**: 0.6%
